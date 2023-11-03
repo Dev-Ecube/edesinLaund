@@ -287,3 +287,54 @@ export const people = [
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quoeius recusandae officia voluptas sint deserunt dicta nihil nam omnis?`,
   },
 ];
+
+export const items = [
+  {
+    question: "What services do you offer?",
+    class1: "fas fa-minus-square",
+    class2: "fas fa-plus-square",
+    answer:
+      "we offer washing,drying,foldong, and ironing services for your clothing.",
+    number: 200,
+  },
+  {
+    question: "How does your pricing work?",
+    class1: "fas fa-minus-square",
+    class2: "fas fa-plus-square",
+    answer:
+      "Pricing is typically based on the weight of your laundry, the type of items,and any additional services you require. You can find our pricing details on our website or by contacting us directly.",
+    number: 300,
+  },
+  {
+    question: "Is my laudry safe with you?",
+    class1: "fas fa-minus-square",
+    class2: "fas fa-plus-square",
+    answer:
+      "Yes, we take great care in handling your laundry. Our staff is trained to maintain the highest standards of quality and security.",
+    number: 400,
+  },
+  {
+    question: "Do you offer any discounts?",
+    class1: "fas fa-minus-square",
+    class2: "fas fa-plus-square",
+    answer:
+      "We often have promotions and loyatly programs for regular customers. Check our website or inquire anout current offers.",
+    number: 500,
+  },
+  {
+    question: "How can I pay for your services?",
+    class1: "fas fa-minus-square",
+    class2: "fas fa-plus-square",
+    answer:
+      "We accept various payment methods, including credit card, online payments,and cah on delivery.",
+    number: 600,
+  },
+  {
+    question: "How do I contact your customer support?",
+    class1: "fas fa-minus-square",
+    class2: "fas fa-plus-square",
+    answer:
+      "You can reach our customer support team via phone, email or through our website.",
+    number: 700,
+  },
+];

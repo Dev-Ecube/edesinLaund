@@ -11,10 +11,10 @@
     />
 
     <!-- animate css -->
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    /> -->
+    />
 
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
@@ -68,7 +68,10 @@
             </span>
           </h1>
 
-          <p class="animate__animated animate__fadeInLeft animate__delay-1s">
+          <p
+            class="animate-animated animate__delay-1s"
+            data-animation="fadeInLeft"
+          >
             We offer quality cleaning and care for all type of fabrics including
             cottons, lace, satins, suite and tradition wears. We collect, clean
             and deliver your clothes within 72 hours. Great value for your
@@ -87,7 +90,11 @@
     <section class="section-center top">
       <div class="section-container">
         <!-- aside section -->
-        <aside class="aside hide" id="aside">
+
+        <aside
+          class="aside animate-animated animate__delay-2s hide"
+          data-animation="fadeInLeft"
+        >
           <h2>how it works</h2>
           <div class="aside-container">
             <div class="price-item">
@@ -128,7 +135,10 @@
         <!-- main section -->
         <section class="services-price">
           <!-- first -->
-          <div class="service hide" id="service">
+          <div
+            class="service animate-animated animate__delay-2s hide"
+            data-animation="zoomIn"
+          >
             <div>
               <h2>execeptional customer service and high-quality care.</h2>
               <a href="services.html" class="btn btn-white order-btn"
@@ -138,8 +148,11 @@
           </div>
 
           <!-- second -->
-          <div class="price" id="servicesPrice">
-            <div class="price-container contacts hide">
+          <div class="price">
+            <div
+              class="price-container contacts animate-animated animate__delay-2s hide"
+              data-animation="fadeInDown"
+            >
               <div class="contact-container">
                 <h3>contacts</h3>
                 <div class="contact-detail">
@@ -163,7 +176,10 @@
                 request for pickup
               </button>
             </div>
-            <div class="price-container hide">
+            <div
+              class="price-container animate-animated animate__delay-2s hide"
+              data-animation="fadeInRight"
+            >
               <h3>expert laundry services at budget-friendly rate</h3>
               <p>
                 We provide top-tier fabric cleaning and care, catering to a wide
@@ -179,10 +195,14 @@
           </div>
 
           <!-- third -->
-          <div class="image hide" id="image">
+          <div
+            class="image animate-animated animate__delay-2s hide"
+            data-animation="zoomInDown"
+          >
             <img
               src="./img/laundry/no-revisions-TyBnT0wowmw-unsplash.jpg"
               alt=""
+              loading="lazy"
             />
           </div>
         </section>
@@ -190,7 +210,7 @@
     </section>
 
     <!-- why choose us -->
-    <section class="section-choose hide" id="choose">
+    <section class="section-choose">
       <h2>why opt for our services?</h2>
       <div>
         <div class="chooseUs">
@@ -232,13 +252,13 @@
         </p>
       </div>
       <div class="about-center section-center">
-        <picture class="about-img hide" id="about-img">
+        <picture class="about-img">
           <img
             src="./img/laundry/no-revisions-qYODM2MGLWs-unsplash.jpg"
             alt="about-image"
           />
         </picture>
-        <article class="about hide" id="about-content">
+        <article class="about">
           <!-- btn container -->
           <div class="btn-container">
             <button class="tab-btn active" data-id="history">mission</button>
@@ -314,7 +334,7 @@
     </section>
     <!-- Faqs -->
 
-    <section class="questions hide" id="qstn">
+    <section class="questions">
       <div class="title">
         <h2>fequently asked questions</h2>
       </div>
@@ -440,7 +460,7 @@
     <!-- footer section -->
     <footer>
       <div class="footer-container">
-        <div class="footer-intro hide" id="footer-intro">
+        <div class="footer-intro">
           <img src="./img/logo/newkk.png" alt="" width="150px" />
           <!-- <h4>Edesin laundry</h4> -->
           <p>
@@ -456,7 +476,7 @@
           </div>
         </div>
 
-        <div class="contacts hide" id="footer-contacts">
+        <div class="contacts">
           <h4>contacts</h4>
           <div class="contact-detail">
             <a href="#"><i class="fas fa-location-dot"></i></a>
@@ -476,7 +496,7 @@
           </div>
         </div>
 
-        <div class="footer-newslater hide" id="footer-newslater">
+        <div class="footer-newslater">
           <h4>newsletter subscriber</h4>
           <form>
             <label for="newsletter"
@@ -512,6 +532,6 @@
     <!-- animejs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-    <script src="./main.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
